@@ -1,0 +1,51 @@
+
+
+.vert-line{
+    width: 2px;
+    height: 100;
+    background: #333;
+    margin: 0 20px;
+}
+
+
+.skills-title{
+    text-align: left;
+    font-size: 4rem;
+    margin: 20px 0;
+}
+
+.skills-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Adjust spacing between items */
+}
+
+.skills-content p {
+    flex-basis: calc(50% - 20px); /* Set each item to take up to 50% of the width minus some gap */
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 3px solid #ccc; /* Optional: add some border */
+    border-radius: 5px;      /* Optional: for rounded corners */
+}
+
+/* Add a vertical line between items */
+.vert-line {
+    display: none; /* Hide vertical lines for cleaner layout */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .skills-content p {
+        flex-basis: calc(100% - 20px); /* Stack items on smaller screens */
+    }
+}

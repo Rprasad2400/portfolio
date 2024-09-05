@@ -1,0 +1,78 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+#About {
+    background-color: #ffffff;
+    
+    
+}
+
+#About h1 {
+    text-align: start;
+    font-size: 5em;
+    color: #000000;
+    font-weight: 800px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    
+    
+}
+
+#About h2 {
+    padding: 0px;
+    margin-top: 0px;
+    font-size: 2.5em;
+    text-align: start;
+    color: #333;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+#About p {
+    text-align: start;
+    color: #000000;
+    font-size: 1.5em;
+    width: 80%;
+
+}
+
+
+.auxiliary-content{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+
+img {
+    width: 25%;
+    border-radius: 10%;
+    float: left;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+

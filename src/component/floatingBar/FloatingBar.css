@@ -1,0 +1,40 @@
+.floating-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    border-radius: 0 0 15px 15px;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.floating-bar nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.floating-bar nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.floating-bar nav a:hover {
+    background-color: #575757;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    .floating-bar nav {
+        flex-direction: column;
+    }
+
+    .floating-bar nav a {
+        padding: 10px;
+    }
+}

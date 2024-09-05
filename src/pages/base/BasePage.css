@@ -1,0 +1,49 @@
+.Base {
+    text-align: center;
+    overflow: hidden; /* Prevents unwanted scrolling */
+    justify-content: space-around;
+  }
+  
+  html, body {
+    height: 100%; /* Ensure the body and html are full height */
+    margin: 0%;
+    scroll-behavior: smooth; /* Smooth scrolling */
+    padding: 10px;
+  }
+  
+  .section {
+    min-height: 110vh; /* Full height of the viewport */
+    width: auto;
+    display: flex;
+    padding: 0px 0;
+    opacity: 0; /* Start fully transparent */
+    transform: translateY(20px); /* Slightly move the section down */
+    transition: opacity 3s ease-out, transform 3s ease-out; /* Smooth transition */
+    scroll-snap-align: start; /* Aligns the section with the start of the scroll */
+    margin-bottom: 100px;
+  }
+  
+  .fade-in {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Move it to its original position */
+  }
+  
+  html {
+    scroll-snap-type: y mandatory; /* Enables snapping on the y-axis */
+  }
+  
+  
+  
+  
+  
+  
+  
+  .fade-in {
+    opacity: 1; /* Fully visible */transform: translateY(0); /* Move it to its original position */
+  }
+  
+  html {
+    scroll-snap-type: y mandatory; /* Enables snapping on the y-axis */
+  }
+  
+  

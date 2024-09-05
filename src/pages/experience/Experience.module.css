@@ -1,0 +1,55 @@
+.experienceCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 100%;
+    padding: 0rem;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    
+    transition: all 0.3s ease;
+}
+
+.experienceDate{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-right: 15rem;
+    min-width: 20%;
+
+}
+
+.experienceDescription{
+    text-align: left;
+    width: 60%;
+}
+.exprTitle{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-style: italic;
+}
+
+.exprContent{
+    font-size: 0.8rem;
+    color: var(--primary-color);
+    font-weight: 400;
+   
+}
+
+.exprienceTitle{
+    text-align: left;
+    font-size: 4.0rem;
+}
+
+/* Experience.module.css or Experience.css */
+.experienceCard ul {
+    padding-left: 20px; /* Add padding to the left of the entire list */
+}
+
+.experienceCard li {
+    margin-bottom: 10px; /* Add space below each list item */
+    line-height: 1.6; /* Optional: Adjust line height for better readability */
+}
