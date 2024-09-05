@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c05c5765.css",
+    "main.js": "/portfolio/static/js/main.e6450e2e.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/hellenistic.jpg": "/portfolio/static/media/hellenistic.f4c85208c5100932c413.jpg",
+    "static/media/tracing.jpg": "/portfolio/static/media/tracing.558a0c8d2afa35c0b2f1.jpg",
+    "static/media/Chivalry.png": "/portfolio/static/media/Chivalry.bd33d52c6137a34dbf3a.png",
+    "static/media/mail_Icon.png": "/portfolio/static/media/mail_Icon.ac863c4a1efc2b9026dd.png",
+    "static/media/arrow.png": "/portfolio/static/media/arrow.8eb3cb41f5db4723a461.png",
+    "static/media/LinkedIn.png": "/portfolio/static/media/LinkedIn.68ac41e1459436bfd38f.png",
+    "index.html": "/portfolio/index.html",
+    "main.c05c5765.css.map": "/portfolio/static/css/main.c05c5765.css.map",
+    "main.e6450e2e.js.map": "/portfolio/static/js/main.e6450e2e.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c05c5765.css",
+    "static/js/main.e6450e2e.js"
+  ]
+}
