@@ -170,6 +170,7 @@ const Projects = () => {
       image: flash_logo,
       link: "https://flashcardapp-wlsx.onrender.com/"
     },
+    
     {
       title: "Test for Chivalry",
       tech: ["JavaScript", "Google Cloud API", "CSS", "HTML"],
