@@ -129,25 +129,25 @@ const Tag = styled.span`
 const Experience = () => {
   const experiences = [
     {
-      role: "Project Lead",
-      company: "Data Science for Sustainable Development",
-      period: "March 2025 – Present",
+      role: "Data Science Intern",
+      company: "Neural Dynamics of Control Laboratory",
+      period: "August 2025 – Present",
       achievements: [
-        "Leading ML model development for lightning-induced fire prediction",
-        "Managing geospatial data analysis on UF HiPerGator",
-        "Implementing GANs for synthetic data generation"
+        "Engineered end-to-end data ETL pipeline for large-scale EEG and survey datasets",
+        "Designed validation systems for data integrity and consistency across multiple sources",
+        "Implemented rigorous data workflows to support streamlining research workflows"
       ],
-      tags: ["Machine Learning", "Geospatial Analysis", "Data Science"]
+      tags: ["Machine Learning", "Data Engineering", "Research"]
     },
     {
-      role: "AI University Scholar",
-      company: "University of Florida",
-      period: "January 2023 – May 2024",
+      role: "Software Engineer Intern",
+      company: "ATC Co",
+      period: "May 2025 – August 2025",
       achievements: [
-        "Developed BERT-based NLP model for Latin text analysis",
-        "Presented research findings at UF Spring 2024 Symposium"
+        "Developed full-stack client dashboard for centralizing product tracking",
+        "Helped improve backend performance and improved UI responsiveness",
       ],
-      tags: ["Natural Language Processing", "Machine Learning"]
+      tags: ["Full-Stack Development", "Startup", "Databases"]
     },
     {
       role: "Research Assistant",

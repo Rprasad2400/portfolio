@@ -3,7 +3,7 @@ import styled, { keyframes } from 'styled-components';
 import flash_logo from '../assets/images/real_logo.png';
 
 import knight from '../assets/images/knight.png';
-import cars from '../assets/images/cars_logo.png';
+import booklore from '../assets/images/booklore_icon.png';
 
 
 const fadeInUp = keyframes`
@@ -157,18 +157,18 @@ const ProjectLink = styled.a`
 const Projects = () => {
   const projects = [
     {
-      title: "Damaged Car Predictor",
-      tech: ["Computer Vision", "KNN", "Data Mining", "Qwen VLM"],
-      description: "Developing an in-progress project utilizing the Qwen Vision Language Model (VLM) to analyze Copart vehicle auction data for predictive analytics. Implementing a hybrid KNN-CNN framework for price prediction.",
-      image: cars,
-      link: "#"
+      title: "BookLore",
+      tech: ["Java Spring Boot", "Angular", "MariaDB", "Docker"],
+      description: "Contributed to a full-stack open-source self-hosted library management system. Implemented API metadata retrieval, improved request handling, updated database schema, and enhanced UI components. Deployed on Docker with 500+ active users.",
+      image: booklore,
+      link: "https://github.com/booklore-app/booklore"
     },
     {
       title: "FlashyFlashcards",
       tech: ["React.js", "Node.js", "MongoDB", "Render"],
       description: "Full-stack application for enhanced studying with features for spaced-repetition algorithms, progress tracking, and push notifications. Launched on Render with 100+ active users.",
       image: flash_logo,
-      link: "https://flashcardapp-wlsx.onrender.com/"
+      link: "https://github.com/Rprasad2400/FlashCardApp"
     },
     
     {
@@ -176,7 +176,7 @@ const Projects = () => {
       tech: ["JavaScript", "Google Cloud API", "CSS", "HTML"],
       description: "1st Place winner among 1000+ participants in Google Cloud Category. Email sentiment analysis tool using JavaScript and RESTful API calls to Google Cloud API.",
       image: knight,
-      link: "https://alexfprowe.com/Chivalry/"
+      link: "https://github.com/Rprasad2400/Chivalry"
     }
   ];
 
